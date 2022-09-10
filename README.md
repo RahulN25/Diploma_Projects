@@ -26,7 +26,7 @@
 
 ## Simple calculator using java
 
-![This is an image](/simple-calculator/simple-calculator.png)
+![This is an image](/simple_calculator/simple-calculator.png)
 
 
 
