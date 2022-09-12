@@ -27,7 +27,7 @@
 
 It is a Simple Html Interface implemented using JavaScript which check if there is Date in the sentence having a format of DD/MM/YYYY.
 
-![Date Checker](date-checker.png)
+![Date Checker](/Date_Checker/date-checker.png)
 
 
 ## Simple calculator using java
