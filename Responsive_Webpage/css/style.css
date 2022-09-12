@@ -1,0 +1,54 @@
+body{
+    font-size: 1.125rem;
+    color: #707070;
+    margin: 0;
+}
+
+
+h1{
+    font-size: 3rem;
+    color: #212614;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.container{
+    width: 95%;
+    max-width: 980px;
+    min-width: 980px;
+    margin: 0 auto;
+}
+
+.container img{
+    width: 100%;
+}
+
+.column{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+
+
+
+.col-1{
+    width: 20%;
+}
+
+.col-2{
+width: 45%;
+}
+
+.col-3{
+    width: 75%;
+}
+
+@media screen and (max-width: 600px) {
+    .column{
+        flex-direction: column;
+    }
+}
+
+
