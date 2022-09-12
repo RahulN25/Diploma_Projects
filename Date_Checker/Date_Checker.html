@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>
+        
+    </title>
+      
+    <style>
+        body {
+            text-align: center;
+        }
+        
+        #date{
+            width: 600px;
+            height: 20px;
+            font-size: 17px;
+        }
+
+        #check{
+            height: 26px;
+            font-size: 17px;
+        }
+
+        
+        label, #status{
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+  
+<body>
+    <h1>Date</h1>
+      
+    <input id="date" type="text" name="date">
+
+    <button id="check" type="submit">Check</button>
+    <br>
+    <br>
+    <label>Status : </label><label id="status">This will show that if Input Box contains Date or not</label>
+</body>
+
+<script>
+    document.getElementById("date").value = "Enter the Text with Date (dd/mm/yyyy) : "
+    var text;
+    var dateType = /([0-2][0-9]|(3)[0-1])(\/)(((0)[0-9])|((1)[0-2]))(\/)\d{4}/;
+
+    document.getElementById("check").onclick = function fun()
+    {
+        text = document.getElementById("date").value;
+        var isMatch = dateType.test(text);
+        if(isMatch){
+            document.getElementById("status").innerHTML = "The Input Box Contains Date";
+        }
+        else{
+            document.getElementById("status").innerHTML = "The Input Box does not Contain Date";
+        }
+    }
+    
+</script>
+  
+</html>
