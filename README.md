@@ -38,7 +38,7 @@ It is a Simple Html Interface implemented using JavaScript which check if there 
 
 ## Simple Responsive Webpage
 
-![Responsive Webpage](/Responsive_Webpage/responsive-webpage.png)
+![Responsive Webpage](/Responsive_Webpage/images/responsive-webpage.png)
 
 
 
